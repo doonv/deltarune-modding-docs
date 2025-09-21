@@ -1,0 +1,47 @@
+# generic ahh gitignore
+# Dependencies
+# Sourced from 'package.json' and lock file
+/node_modules
+
+# VitePress specific
+# Build output, cache, and temporary files
+.vitepress/dist
+.vitepress/cache
+.vitepress/temp
+
+# General build output folder (good practice)
+/dist
+/out
+/build
+
+# Logs
+# Logs from npm, yarn, pnpm, etc.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+
+# =================================================================
+#  IDE / Editor / System Files
+# =================================================================
+
+# JetBrains IDEs (WebStorm, etc.)
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

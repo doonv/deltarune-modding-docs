@@ -1,0 +1,9 @@
+{
+  "FileOptions": {
+    "ExcludeSearchPatterns": [
+      "game-reference-generator/build",
+      "game-reference-generator/UndertaleModTool*",
+      "game-reference-generator/UTMT*"
+    ]
+  }
+}
