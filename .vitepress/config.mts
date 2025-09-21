@@ -124,7 +124,8 @@ export default defineConfig({
     outline: [2, 3],
     editLink: {
       pattern: 'https://github.com/doonv/deltarune-modding-docs/edit/main/docs/:path'
-    }
+    },
+    
   },
   markdown: {
     config: (md) => {
