@@ -115,7 +115,7 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/uKqHUrekvK' },
-      { icon: 'github', link: 'https://github.com/doonv/deltarune-moddding-docs' }
+      { icon: 'github', link: 'https://github.com/doonv/deltarune-modding-docs' }
     ],
     footer: {
       // copyright: "© TODO"
@@ -123,7 +123,7 @@ export default defineConfig({
     },
     outline: [2, 3],
     editLink: {
-      pattern: 'https://github.com/doonv/deltarune-moddding-docs/edit/main/docs/:path'
+      pattern: 'https://github.com/doonv/deltarune-modding-docs/edit/main/docs/:path'
     }
   },
   markdown: {

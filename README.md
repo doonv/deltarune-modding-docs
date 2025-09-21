@@ -23,8 +23,8 @@ Though if you plan to do some kind of big restructuring, please discuss it with 
 First, clone the repository and install the necessary dependencies.
 
 ```bash
-git clone https://github.com/doonv/deltarune-moddding-docs
-cd deltarune-moddding-docs
+git clone https://github.com/doonv/deltarune-modding-docs
+cd deltarune-modding-docs
 npm install
 ```
 
