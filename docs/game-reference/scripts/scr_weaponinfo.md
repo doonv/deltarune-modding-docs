@@ -15,6 +15,7 @@ Here's a list of *some* weapon indexes as an example.
 - `3 (Red Scarf)`
 
 # Structure of a weapon in `scr_weaponinfo`
+
 All weapons have their own `case` in `scr_weaponinfo`.
 Each `case` is reserved for an item index. (Including `0`, which is nothing.)
 
@@ -136,6 +137,6 @@ Or, you could just add a `scr_weaponget(weapon_index)` somewhere in the code (th
 
 Doing that, then loading our SAVE...
 
-![](starblade.gif)
+![](itemdocs/starblade.gif)
 
 *There it is!* There is our custom weapon. Isn't it just cute?
