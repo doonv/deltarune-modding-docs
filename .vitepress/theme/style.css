@@ -72,6 +72,12 @@
   --vp-code-color: color-mix(in hsl, var(--vp-c-brand-1), white 50%);
 }
 
+img {
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
@@ -151,3 +157,11 @@
   -moz-osx-font-smoothing: grayscale !important;
   font-size: 32px !important;
 } */
+
+/**
+ * Component: Code Group
+ * -------------------------------------------------------------------------- */
+
+.dark {
+  --vp-code-block-divider-color: rgba(255,255,255,0.03);
+}
