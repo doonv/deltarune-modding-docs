@@ -60,14 +60,14 @@ case 1:
     // Unused, would've increased Graze Size if implemented.
     weapongrazesizetemp = 0;
     // If Kris can equip the weapon
-    weaponchar1temp = 1;
+    weaponchar1temp = true;
     // If Ralsei can equip the weapon
-    weaponchar2temp = 0;
+    weaponchar2temp = false;
     // If Susie can equip the weapon
-    weaponchar3temp = 0;
+    weaponchar3temp = false;
     // NOTE: not in the original chapter2 code, but you can define 
     // if Noelle can equip the weapon like this
-    // weaponchar4temp = 0;
+    // weaponchar4temp = false;
     // This is an image_index value for spr_dmenu_items, which is for the icon 
     // of the weapon. Remember that image_index values start at zero!
     weaponicontemp = 1;
@@ -120,10 +120,10 @@ case 25000:
     weaponstyletemp = "?";
     weapongrazeamttemp = 0;
     weapongrazesizetemp = 0;
-    weaponchar1temp = 1;
-    weaponchar2temp = 0;
-    weaponchar3temp = 0;
-    weaponchar4temp = 0;
+    weaponchar1temp = true;
+    weaponchar2temp = false;
+    weaponchar3temp = false;
+    weaponchar4temp = false;
     weaponicontemp = 1;
     weaponabilityicontemp = 7;
     weaponabilitytemp = "Originality";

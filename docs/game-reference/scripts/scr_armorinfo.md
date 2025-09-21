@@ -55,14 +55,14 @@ case 1:
     // Instead, this is implemented manually in obj_grazebox_Create_0 for some reason.
     armorgrazesizetemp = 0;
     // If Kris can equip the armor
-    armorchar1temp = 1;
+    armorchar1temp = true;
     // If Susie can equip the armor
-    armorchar2temp = 1;
+    armorchar2temp = true;
     // If Ralsei can equip the armor
-    armorchar3temp = 1;
+    armorchar3temp = true;
     // NOTE: not in the original chapter2 code, but you can define 
     // if Noelle can equip the armor like this
-    // armorchar4temp = 0;
+    // armorchar4temp = false;
     // Display text for the armor ability
     // a string with a single space " " means no ability.
     armorabilitytemp = stringsetloc(" ", "scr_armorinfo_slash_scr_armorinfo_gml_43_0");
@@ -113,10 +113,10 @@ case 25000:
     armorboltstemp = 0;
     armorgrazeamttemp = 0;
     armorgrazesizetemp = 0;
-    armorchar1temp = 1;
-    armorchar2temp = 0;
-    armorchar3temp = 1;
-    armorchar4temp = 1;
+    armorchar1temp = true;
+    armorchar2temp = false;
+    armorchar3temp = true;
+    armorchar4temp = true;
     armorabilitytemp = "Originality"
     armorabilityicontemp = 7;
     armoricontemp = 4;
