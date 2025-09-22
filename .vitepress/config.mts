@@ -86,7 +86,7 @@ export default defineConfig({
       {
         text: 'Tutorials',
         items: [
-          { text: 'Your first mod', link: '/tutorials/your-first-mod' },
+          { text: 'Your First Mod', link: '/tutorials/your-first-mod' },
           { text: 'Using UndertaleModTool', link: '/tutorials/using-undertalemodtool' },
           {
             text: 'UndertaleModTool Scripting',
