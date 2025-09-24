@@ -4,7 +4,7 @@ This is one giant code file that stores information regarding all the Dark World
 If you want to add new/modify existing weapons - `scr_weaponinfo` is where you want to be.
 
 # Item Indexes
-Every item in DELTARUNE, whether it'd be a weapon, armor, or key item, all have their own predefined numeric index.
+Every item in DELTARUNE, whether it'd be a weapon, armor, item, light world item, or key item, all have their own predefined numeric index.
 
 One thing that is common across *all* item registries is that index `0` is always reserved for nothing.
 
