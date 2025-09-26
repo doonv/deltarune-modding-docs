@@ -19,7 +19,7 @@ Here's a list of *some* keyitem indexes as an example.
 All keyitems have their own `case` in `scr_keyiteminfo`.
 Each `case` is reserved for an item index. (Including `0`, which is nothing.)
 
-All `case`s contain all the necessary keyitem information for an individual keyitem, ATK, DEF, MAG, Sell value, etc... 
+All `case`s contain all the necessary keyitem information for an individual keyitem, Name, Description, etc... 
 
 Here is a *(heavily commented)* code snippet of a keyitem (Cell Phone) in `scr_keyiteminfo`
 
